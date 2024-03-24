@@ -2,23 +2,23 @@
 
 ![Hyprland screenshot](./images/2024-03-25-005430_hyprshot.png)
 
-> WARNING! This configuration uses [lanzaboote](https://github.com/nix-community/lanzaboote) for Secure boot support. If you want to use the flake and don't need secure boot, make appropriate changes in [boot.nix](./system/boot.nix).
+> ⚠ WARNING! This configuration uses [lanzaboote](https://github.com/nix-community/lanzaboote) for Secure boot support. If you want to use the flake and don't need secure boot, make appropriate changes in [boot.nix](./system/boot.nix).
 
-> WARNING! Make sure to change [hardware-configuration.nix](./hardware-configuration.nix) according to your PC or generate a new one via `nixos-generate-config --root /mnt` while installing.
+> ⚠ WARNING! Make sure to change [hardware-configuration.nix](./hardware-configuration.nix) according to your PC or generate a new one via `nixos-generate-config --root /mnt` while installing.
 
-> WARNING! Make sure to change home paths for config files in [user](./user/config).
+> ⚠ WARNING! Make sure to change home paths for config files in [user](./user/config).
 
-> WARNING! There might be some non-critical bugs in configuration as I'm still working on it.
+> ⚠ WARNING! There might be some non-critical bugs in configuration as I'm still working on it.
 
 ## Table Of Contents
 
-- [About](#-about)
-- [Components](#-components)
-- [Keybindings](#-keybindings)
+- ℹ [About](#-about)
+- 🔧 [Components](#-components)
+- ⌨ [Keybindings](#-keybindings)
 - [NixOS specific zsh aliases](#-nixos-specific-zsh-aliases)
-- [License](#-license)
+- 📖 [License](#-license)
 
-## About
+## ℹ About
 
 This repository is housing my daily drive NixOS configuration using ❄️ flakes, running Hyprland. Feel free to utilize it in its entirety or borrow specific components for your own configuration.
 
@@ -29,7 +29,7 @@ Notably, it utilizes:
 - **flake** (Experimental feature of the Nix package manager)
 - **nixpkgs**: unstable (only used for hyprshot & [Vesktop](https://github.com/Vencord/Vesktop))
 
-## Components
+## 🔧 Components
 
 | Component        | Version/Name                                         |
 | ---------------- | ---------------------------------------------------- |
@@ -58,7 +58,7 @@ Notably, it utilizes:
 | Containerization | Docker                                               |
 | Virtualisation   | qemu + virt-manager + libvirtd                       |
 
-## Keybindings
+## ⌨ Keybindings
 
 | Key Combination           | Action                                                                |
 | ------------------------- | --------------------------------------------------------------------- |
@@ -87,6 +87,6 @@ All other keybindings can be found at [bind.conf](./user/config/hypr/bind.conf)
 
 > Make sure to make appropriate changes to [sh.nix](./user/sh.nix) flake paths.
 
-## License
+## 📖 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
