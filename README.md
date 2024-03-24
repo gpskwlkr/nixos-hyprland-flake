@@ -1,6 +1,6 @@
 # NixOS + Hyprland (Secureboot enabled)
 
-![Hyprland screenshot](./images/2024-03-24-213455_hyprshot.png)
+![Hyprland screenshot](./images/2024-03-24-235221_hyprshot.png)
 
 > WARNING! This configuration uses [lanzaboote](https://github.com/nix-community/lanzaboote) for Secure boot support. If you want to use the flake and don't need secure boot, make appropriate changes in [boot.nix](./system/boot.nix).
 
