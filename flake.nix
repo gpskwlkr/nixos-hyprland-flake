@@ -22,10 +22,8 @@
         pkgs-unstable = nixpkgs-unstable.legacyPackages.${system};
 	in
     {
-
-		nixosConfigurations = {
-			nixos-personal = lib.nixosSystem {
-				inherit system;
+		nixosConfigurations.nixos-personal = lib.nixosSystem {
+                inherit system;
 				modules = [
 					./configuration.nix
                     ./hardware-configuration.nix
@@ -70,8 +68,7 @@
                 specialArgs = {
                     inherit pkgs-unstable;
                 };
-			};
-		};
+        };
 
 		homeConfigurations = {
 			gpskwlkr = home-manager.lib.homeManagerConfiguration {
