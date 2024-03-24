@@ -1,5 +1,4 @@
 {
-
     description = "gpskwlkr NixOS";
 
     inputs = {
