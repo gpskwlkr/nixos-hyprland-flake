@@ -3,8 +3,11 @@
 ![Hyprland screenshot](./images/2024-03-24-213455_hyprshot.png)
 
 > WARNING! This configuration uses [lanzaboote](https://github.com/nix-community/lanzaboote) for Secure boot support. If you want to use the flake and don't need secure boot, make appropriate changes in [boot.nix](./system/boot.nix).
+
 > WARNING! Make sure to change [hardware-configuration.nix](./hardware-configuration.nix) according to your PC or generate a new one via `nixos-generate-config --root /mnt` while installing.
+
 > WARNING! Make sure to change home paths for config files in [user](./user/config).
+
 > WARNING! There might be some non-critical bugs in configuration as I'm still working on it.
 
 ## Table Of Contents
