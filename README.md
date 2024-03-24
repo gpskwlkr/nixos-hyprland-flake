@@ -80,10 +80,10 @@ All other keybindings can be found at [bind.conf](./user/config/hypr/bind.conf)
 
 ## NixOS specific zsh aliases
 
-**fullClean** - Fully clean old generations data
-**rebuild** - alias to `nixos-rebuild switch`
-**fullRebuild** - same as previous but also includes `home-manager switch`
-**homeRebuild** - only rebuild home-manager
+- **fullClean** - Fully clean old generations data
+- **rebuild** - alias to `nixos-rebuild switch`
+- **fullRebuild** - same as previous but also includes `home-manager switch`
+- **homeRebuild** - only rebuild home-manager
 
 > Make sure to make appropriate changes to [sh.nix](./user/sh.nix) flake paths.
 
