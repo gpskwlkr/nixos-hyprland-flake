@@ -20,7 +20,7 @@
 
 ## About
 
-This repository is housing my daily drive NixOS configuration using ❄️f flakes, running Hyprland. Feel free to utilize it in its entirety or borrow specific components for your own configuration.
+This repository is housing my daily drive NixOS configuration using ❄️ flakes, running Hyprland. Feel free to utilize it in its entirety or borrow specific components for your own configuration.
 
 > Configuration is not lightweight and may require some disk space.
 
