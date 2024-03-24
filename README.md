@@ -27,7 +27,7 @@ This repository is housing my daily drive NixOS configuration using ❄️ flake
 Notably, it utilizes:
 
 - **flake** (Experimental feature of the Nix package manager)
-- **nixpkgs**: unstable (only used for hyprshot & [Vesktop]())
+- **nixpkgs**: unstable (only used for hyprshot & [Vesktop](https://github.com/Vencord/Vesktop))
 
 ## Components
 
@@ -49,7 +49,7 @@ Notably, it utilizes:
 | File Browser     | Thunar                                               |
 | Internet Browser | Firefox                                              |
 | Screenshot       | Hyprshot                                             |
-| Clipboard        | Wl-clipboard                                         |
+| Clipboard        | wl-clipboard                                         |
 | Idle             | Swayidle                                             |
 | Lock             | Swaylock                                             |
 | Logout menu      | Wlogout                                              |
