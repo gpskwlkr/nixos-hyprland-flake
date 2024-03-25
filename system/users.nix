@@ -13,8 +13,6 @@ users.users.gpskwlkr = {
         "docker"
      ]; 
      packages = with pkgs; [
-       firefox
-       tree
      ];
    };
 

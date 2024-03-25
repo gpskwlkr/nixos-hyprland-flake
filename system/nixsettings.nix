@@ -22,7 +22,6 @@
   nixpkgs = {
 	config = {
 		allowUnfree = true;
-		allowUnfreePredicate = pkg: builtins.elem (builtins.parseDrvName pkg.name).name ["steam"];
 
         permittedInsecurePackages = [
             "electron-25.9.0" # obsidian
