@@ -33,32 +33,32 @@ Notably, it utilizes:
 
 ## 🔧 Components
 
-| Component        | Version/Name                                         |
-| ---------------- | ---------------------------------------------------- |
-| Distro           | NixOS                                                |
-| Shell            | Zsh                                                  |
-| Display Server   | Wayland                                              |
-| WM (Compositor)  | Hyprland                                             |
-| Bar              | Waybar                                               |
-| Notification     | Mako                                                 |
-| Launcher         | Wofi                                                 |
-| Editor           | Neovim                                               |
-| Terminal         | Kitty                                                |
-| Fetch Utility    | Neofetch                                             |
-| Theme            | Catppuccin Macchiato                                 |
-| Icons            | Colloid-teal-dark, Numix-Circle                      |
-| Font             | Nerd-fonts NixOS package (installing all nerd-fonts) |
-| File Browser     | Thunar                                               |
-| Internet Browser | Firefox                                              |
-| Screenshot       | Hyprshot                                             |
-| Clipboard        | wl-clipboard                                         |
-| Idle             | Swayidle                                             |
-| Lock             | Swaylock                                             |
-| Logout menu      | Wlogout                                              |
-| Wallpaper        | Hyprpaper                                            |
-| Display Manager  | SDDM                                                 |
-| Containerization | Docker                                               |
-| Virtualisation   | qemu + virt-manager + libvirtd                       |
+| Component        | Version/Name                    |
+| ---------------- | ------------------------------- |
+| Distro           | NixOS                           |
+| Shell            | Zsh                             |
+| Display Server   | Wayland                         |
+| WM (Compositor)  | Hyprland                        |
+| Bar              | Waybar                          |
+| Notification     | Mako                            |
+| Launcher         | Wofi                            |
+| Editor           | Neovim                          |
+| Terminal         | Kitty                           |
+| Fetch Utility    | Neofetch                        |
+| Theme            | Catppuccin Macchiato            |
+| Icons            | Colloid-teal-dark, Numix-Circle |
+| Font             | JetBrains Mono & Font Awesome   |
+| File Browser     | Thunar & viewnior for images    |
+| Internet Browser | Firefox                         |
+| Screenshot       | Hyprshot                        |
+| Clipboard        | wl-clipboard                    |
+| Idle             | Swayidle                        |
+| Lock             | Swaylock                        |
+| Logout menu      | Wlogout                         |
+| Wallpaper        | Hyprpaper                       |
+| Display Manager  | SDDM                            |
+| Containerization | Docker                          |
+| Virtualisation   | qemu + virt-manager + libvirtd  |
 
 ## ⌨ Keybindings
 

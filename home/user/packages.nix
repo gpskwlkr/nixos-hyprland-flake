@@ -57,6 +57,7 @@
     pkgs.qbittorrent
 
     # Utils
+    pkgs.viewnior
     pkgs-unstable.hyprshot
   ];
 }

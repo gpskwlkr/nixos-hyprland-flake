@@ -6,13 +6,11 @@
     bat
     btop
     fzf
-    gimp
     git
     lm_sensors
     neofetch
     neovim
     ripgrep
-    sysstat
     tldr
     unzip
     wget
