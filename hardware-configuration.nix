@@ -14,24 +14,17 @@
   boot.extraModulePackages = [ ];
 
   fileSystems."/" =
-    { device = "/dev/disk/by-uuid/755bd859-a650-4acd-99a3-d48ef8119370";
+    { device = "/dev/disk/by-uuid/e77340bd-65f6-48f1-baa6-6b17aae6666a";
       fsType = "ext4";
     };
 
   fileSystems."/boot" =
-    { device = "/dev/disk/by-uuid/3E0E-A359";
+    { device = "/dev/disk/by-uuid/EE4B-9C10";
       fsType = "vfat";
     };
 
-  fileSystems."/home/gpskwlkr/HDD" = 
-    {
-        device = "/dev/disk/by-uuid/5ffff838-c04f-4a9b-aa5c-b985e52b6993";
-        fsType = "ext4";
-        options = [ "defaults,noatime" ];
-    };
-
   swapDevices =
-    [ { device = "/dev/disk/by-uuid/dd5fab99-0fad-4dc6-bb4c-723245e9f477"; }
+    [ { device = "/dev/disk/by-uuid/ed488302-476e-4bc2-8516-1ce11271b0dc"; }
     ];
 
   # Enables DHCP on each ethernet and wireless interface. In case of scripted networking

@@ -12,13 +12,6 @@
   };
 
   environment.systemPackages = with pkgs; [
-    steam
-    steam-run
-    (lutris.override {
-      extraPkgs = pkgs: [
-        wineWowPackages.stable
-        winetricks
-      ];
-    })
+    
   ];
 }

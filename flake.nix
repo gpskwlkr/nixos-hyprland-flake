@@ -30,45 +30,8 @@
 		nixosConfigurations.nixos-personal = lib.nixosSystem {
                 inherit system;
 				modules = [
-					./configuration.nix
-                    ./hardware-configuration.nix
-                    ./system/boot.nix
-                    ./system/fonts.nix
-                    ./system/gaming.nix
-                    ./system/hardware.nix
-                    ./system/hyprland.nix
-                    ./system/internationalisation.nix
-                    ./system/misc.nix
-                    ./system/networking.nix
-                    ./system/nixsettings.nix
-                    ./system/packages.nix
-                    ./system/polkit.nix
-                    ./system/programming.nix
-                    ./system/programs.nix
-                    ./system/security.nix
-                    ./system/services.nix
-                    ./system/sound.nix
-                    ./system/time.nix
-                    ./system/users.nix
-                    ./system/virtualisation.nix
-                    ./system/theme.nix 
-                    ./system/work.nix
-
+                    ./configuration.nix 
                     lanzaboote.nixosModules.lanzaboote 
-
-
-                    ({pkgs, lib, ...}: {
-                        environment.systemPackages = [
-                            pkgs.sbctl
-                        ];
-
-                        boot.loader.systemd-boot.enable = lib.mkForce false;
-
-                        boot.lanzaboote = {
-                            enable = true;
-                            pkiBundle = "/etc/secureboot";
-                        };
-                     })
 				];
                 specialArgs = {
                     inherit pkgs-unstable;
@@ -78,7 +41,7 @@
 		homeConfigurations = {
 			gpskwlkr = home-manager.lib.homeManagerConfiguration {
 				inherit pkgs;
-				modules = [ ./home.nix ];
+				modules = [ ./home ];
                 extraSpecialArgs = {
                     inherit pkgs-unstable;
                     inherit inputs;
