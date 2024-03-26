@@ -2,6 +2,7 @@
 let 
   myAliases = {
 	ll = "ls -l";
+    docker-compose = "podman-compose";
     fullClean = '' 
         nix-collect-garbage --delete-old
 
