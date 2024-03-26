@@ -76,6 +76,8 @@ Notably, it utilizes:
 | SUPER + E                 | Launch `thunar`                                                       |
 | SUPER + M                 | Launch `wlogout`                                                      |
 | SUPER + SHIFT + L         | Launch `swaylock`                                                     |
+| SUPER + B                 | Launch `firefox`                                                      |
+| SUPER + C                 | Launch `telegram-desktop`                                             |
 | Print                     | Take screenshot (currently configured to area capture into clipboard) |
 
 All other keybindings can be found at [bind.conf](./user/config/hypr/bind.conf)
