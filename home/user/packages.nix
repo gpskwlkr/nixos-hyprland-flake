@@ -51,6 +51,7 @@
         pkgs.winetricks
       ];
     })
+    pkgs.yuzu-mainline
 
     # Downloads
     pkgs.qbittorrent

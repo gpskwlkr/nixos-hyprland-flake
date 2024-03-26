@@ -1,30 +1,29 @@
 { pkgs, ... }: 
 
 {
-  virtualisation.libvirtd = {
-    enable = true;
+  virtualisation = {
+    spiceUSBRedirection.enable = true;
 
-    qemu = {
+    libvirtd = {
+      enable = true;
+
+      qemu = {
         swtpm.enable = true;
         ovmf.enable = true;
         ovmf.packages = [ pkgs.OVMFFull.fd ];
+      };
+    };
+
+    podman = {
+      enable = true;
+
+      dockerCompat = true;
+      defaultNetwork.settings.dns_enabled = true;
     };
   };
 
-  virtualisation.spiceUSBRedirection.enable = true;
-  services.spice-vdagentd.enable = true;
-
-  virtualisation.docker = {
-      enable = true;
-      enableOnBoot = true;
-      rootless = {
-        enable = true;
-        setSocketVariable = true;
-      };
-  };
-
   environment.systemPackages = with pkgs; [
-    docker-compose
+    podman-compose
     qemu
     spice
     spice-gtk

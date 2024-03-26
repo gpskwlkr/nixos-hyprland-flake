@@ -23,6 +23,7 @@
  #  };
 
   boot.loader.systemd-boot.enable = lib.mkForce false;
+  boot.initrd.kernelModules = [ "amdgpu" ];
 
   boot.lanzaboote = {
     enable = true;

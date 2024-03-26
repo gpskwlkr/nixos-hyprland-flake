@@ -5,6 +5,7 @@
   	dbus.enable = true;
 	picom.enable = true;
 	openssh.enable = true;
+    spice-vdagentd.enable = true;
 
 	xserver = {
 		enable = true;
@@ -14,7 +15,7 @@
 		displayManager = {
 			sddm.enable = true;
 		};
+        videoDrivers = [ "amdgpu" ];
 	};
-
   };
 }

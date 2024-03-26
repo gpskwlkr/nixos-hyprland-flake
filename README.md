@@ -8,6 +8,8 @@
 
 > ⚠ WARNING! Make sure to change home paths for config files in [user](./user/config).
 
+> ⚠ WARNING! This configuration uses Podman as opposed to Docker, if you want to use dokcer make according changes in [virtualisation](./system/modules/virtualisation.nix).
+
 > ⚠ WARNING! There might be some non-critical bugs in configuration as I'm still working on it.
 
 ## Table Of Contents

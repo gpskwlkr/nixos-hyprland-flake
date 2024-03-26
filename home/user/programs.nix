@@ -12,6 +12,7 @@
             proton-pass
             to-google-translate
             view-image
+            ublock-origin
             youtube-shorts-block
         ];
     };
