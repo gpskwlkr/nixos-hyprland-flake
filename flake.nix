@@ -30,7 +30,7 @@
 		nixosConfigurations.nixos-personal = lib.nixosSystem {
                 inherit system;
 				modules = [
-                    ./configuration.nix 
+                    ./system/configuration.nix 
                     lanzaboote.nixosModules.lanzaboote 
 				];
                 specialArgs = {

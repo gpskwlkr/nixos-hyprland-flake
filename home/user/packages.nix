@@ -1,3 +1,5 @@
+{ pkgs, pkgs-unstable, ... }:
+
 {
   nixpkgs = {
     config = {

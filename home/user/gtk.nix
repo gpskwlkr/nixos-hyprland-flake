@@ -1,3 +1,4 @@
+{ pkgs, ... }:
 {
   gtk = {
     enable = true;
