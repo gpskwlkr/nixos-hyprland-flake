@@ -45,13 +45,13 @@
     # Gaming
     pkgs.steam
     pkgs.steam-run
+    pkgs.yuzu-mainline
     (pkgs.lutris.override {
       extraPkgs = pkgs: [
         pkgs.wineWowPackages.stable
         pkgs.winetricks
       ];
     })
-    pkgs.yuzu-mainline
 
     # Downloads
     pkgs.qbittorrent

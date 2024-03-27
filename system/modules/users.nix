@@ -12,8 +12,5 @@ users.users.gpskwlkr = {
         "networkmanager"
         "docker"
      ]; 
-     packages = with pkgs; [
-     ];
    };
-
 }

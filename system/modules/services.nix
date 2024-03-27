@@ -15,7 +15,6 @@
 		displayManager = {
 			sddm.enable = true;
 		};
-        videoDrivers = [ "amdgpu" ];
 	};
   };
 }

@@ -10,7 +10,6 @@
       kitty
       libnotify
       mako
-      nwg-look
       qt5.qtwayland
       qt6.qtwayland
       swayidle
@@ -19,6 +18,5 @@
       wl-clipboard
       wofi
       waybar
-      xfce.thunar    
     ];
 }

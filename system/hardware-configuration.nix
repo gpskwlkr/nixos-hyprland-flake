@@ -23,6 +23,13 @@
       fsType = "vfat";
     };
 
+  fileSystems."/home/gpskwlkr/HDD" = 
+    {
+        device = "/dev/disk/by-uuid/5ffff838-c04f-4a9b-aa5c-b985e52b6993";
+        fsType = "ext4";
+        options = [ "defaults,noatime" ];
+    };
+
   swapDevices =
     [ { device = "/dev/disk/by-uuid/ed488302-476e-4bc2-8516-1ce11271b0dc"; }
     ];
