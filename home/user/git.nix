@@ -1,7 +1,11 @@
+let
+  userName = "gpskwlkr";
+  email = "giorgi.anakidze@outlook.com";
+in
 {
     programs.git = {
         enable = true;
-        userName = "gpskwlkr";
-        userEmail = "giorgi.anakidze@outlook.com";
+        userName = userName;
+        userEmail = email;
     };
 }

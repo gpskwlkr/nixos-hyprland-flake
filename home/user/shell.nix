@@ -1,8 +1,10 @@
 { config, pkgs, ... }:
 let 
   myAliases = {
-	ll = "ls -l";
     docker-compose = "podman-compose";
+    cat = "bat";
+    ls = "eza --icons=always";
+
     fullClean = '' 
         nix-collect-garbage --delete-old
 
@@ -24,8 +26,6 @@ in
 		initExtra = '' 
             source ~/.p10k.zsh && 
             eval "$(zoxide init --cmd cd zsh)" && 
-
-            j() { cdi; clear }
 
             export PATH="$PATH:/home/gpskwlkr/.dotnet/tools"
         ''; 

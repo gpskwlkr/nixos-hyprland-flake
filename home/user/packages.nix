@@ -1,16 +1,7 @@
 { pkgs, pkgs-unstable, ... }:
 
 {
-  nixpkgs = {
-    config = {
-      allowUnfree = true;
-      allowUnfreePredicate = (_: true);
-
-      permittedInsecurePackages = [
-        "electron-25.9.0" # Obsidian
-      ];
-    };
-  };
+  
 
   home.packages = [
 
@@ -27,16 +18,25 @@
         python-pkgs.pip
         python-pkgs.requests
     ]))
-    pkgs.zig
+    pkgs.rustc
+    pkgs.rust-analyzer
+    pkgs.clippy
+    pkgs.cargo
 
+    pkgs.zig
+    
     # Work stuff
     pkgs.obsidian
     pkgs.teams-for-linux
     pkgs.thunderbird
     pkgs.zoom-us
+    pkgs.libreoffice-qt
+    pkgs.hunspell
  
     # Bluetooth
     pkgs.blueberry
+
+    
 
     # Social
     pkgs.telegram-desktop
@@ -59,5 +59,8 @@
     # Utils
     pkgs.viewnior
     pkgs-unstable.hyprshot
+    pkgs.catppuccin-cursors.macchiatoBlue
+    pkgs.catppuccin-gtk
+    pkgs.papirus-folders
   ];
 }
