@@ -68,16 +68,17 @@ Notably, it utilizes:
 | ------------------------- | --------------------------------------------------------------------- |
 | SUPER + H, J, K, L        | Change window focus                                                   |
 | SUPER + CTRL + H, J, K, L | Resize window                                                         |
+| SUPER + SHIFT + H,J,K,L   | Move windows                                                          |
 | SUPER + 1..0              | Change workspace                                                      |
 | SUPER + SHIFT + 1..0      | Move window to workspace                                              |
-| SUPER + Q                 | Kill active window                                                    |
 | SUPER + S                 | Toggle split                                                          |
+| SUPER + Q                 | Kill active window                                                    |
+| SUPER + SHIFT + Q         | Launch `swaylock`                                                     |
 | SUPER + M                 | Exit from `hyprland`                                                  |
 | SUPER + Return            | Launch `kitty`                                                        |
 | SUPER + D                 | Launch `wofi`                                                         |
 | SUPER + E                 | Launch `thunar`                                                       |
 | SUPER + M                 | Launch `wlogout`                                                      |
-| SUPER + SHIFT + L         | Launch `swaylock`                                                     |
 | SUPER + B                 | Launch `firefox`                                                      |
 | SUPER + C                 | Launch `telegram-desktop`                                             |
 | Print                     | Take screenshot (currently configured to area capture into clipboard) |
