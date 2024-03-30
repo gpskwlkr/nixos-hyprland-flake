@@ -18,11 +18,9 @@
         python-pkgs.pip
         python-pkgs.requests
     ]))
-    pkgs.rustc
-    pkgs.rust-analyzer
-    pkgs.clippy
-    pkgs.cargo
-
+    pkgs.rustup
+    pkgs.pkgsCross.mingwW64.stdenv.cc 
+    pkgs.pkgsCross.mingwW64.windows.pthreads
     pkgs.zig
     
     # Work stuff

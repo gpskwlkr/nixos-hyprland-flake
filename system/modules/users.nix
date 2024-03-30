@@ -10,7 +10,6 @@ users.users.gpskwlkr = {
         "kvm"
         "libvirtd"
         "networkmanager"
-        "docker"
      ]; 
    };
 }

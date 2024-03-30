@@ -44,7 +44,7 @@
             tmuxPlugins.vim-tmux-navigator
             tmuxPlugins.resurrect
             tmuxPlugins.continuum
-            tmuxPlugins.nord
+            tmuxPlugins.catppuccin
         ];
 
         extraConfig = ''
@@ -83,7 +83,7 @@
 
             set -g @resurrect-capture-pane-contents 'on'
             set -g @continuum-restore 'on'
-            set -g @themepack 'nord'
+            set -g @catppuccin-flavour 'macchiato'
         '';
     };
 
